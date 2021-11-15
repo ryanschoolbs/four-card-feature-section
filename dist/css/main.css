@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 0.9375rem;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafafa;
+  line-height: 1.6;
+}
+
+.container {
+  outline: 1px solid red;
+  max-width: 1280px;
+  padding: 5rem 2rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 4fr;
+}
+
+.hero-title {
+  text-align: center;
+}
+
+.hero-title h1 {
+  font-size: 1.5rem;
+  font-weight: 200;
+  margin-bottom: 1rem;
+}
+
+.hero-title h1 span {
+  font-weight: 600;
+}
+
+.hero-title p {
+  font-weight: 400;
+  color: #a3a5ae;
+}
+
+.card {
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+  font-size: 0.9375rem;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  position: relative;
+  overflow: hidden;
+}
+
+.card .card-top {
+  height: 4px;
+  width: 100rem;
+  background-color: red;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.card h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.card p {
+  font-size: 0.8rem;
+  color: #a3a5ae;
+}
+
+.card img {
+  margin-left: auto;
+  margin-right: 0;
+  margin-top: 2rem;
+}
+
+.card-1 .card-top {
+  background-color: #45d3d3;
+}
+
+.card-2 .card-top {
+  background-color: #ea5353;
+}
+
+.card-3 .card-top {
+  background-color: #fcaf4a;
+}
+
+.card-4 .card-top {
+  background-color: #549ef2;
+}
