@@ -173,17 +173,17 @@ body {
 }
 
 @media (min-width: 768px) {
-  body {
-    font-size: 1.5rem;
-  }
   .container {
     align-items: center;
   }
   .hero-title h1 {
     font-size: 2rem;
   }
+  .hero-title p {
+    font-size: 1.2rem;
+  }
   .cards-wrap {
-    margin-top: 3rem;
+    margin-top: 2rem;
   }
   .cards-wrap .card {
     margin-bottom: 2rem;
@@ -193,7 +193,7 @@ body {
     font-size: 1.5rem;
   }
   .cards-wrap .card p {
-    font-size: 0.9375rem;
+    font-size: 1.2rem;
     color: #a3a5ae;
   }
 }

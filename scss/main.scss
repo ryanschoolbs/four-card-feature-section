@@ -105,7 +105,6 @@ body {
 
 @media (min-width: 768px) {
    body {
-      font-size: $fs-lg;
    }
 
    .container {
@@ -116,10 +115,13 @@ body {
       h1 {
          font-size: 2rem;
       }
+      p {
+         font-size: 1.2rem;
+      }
    }
 
    .cards-wrap {
-      margin-top: 3rem;
+      margin-top: 2rem;
       .card {
          // outline: 1px solid red;
 
@@ -130,7 +132,7 @@ body {
          }
 
          p {
-            font-size: $fs-rg;
+            font-size: 1.2rem;
             color: $fc-gray-blue;
          }
       }
