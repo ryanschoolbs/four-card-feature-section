@@ -138,6 +138,8 @@ body {
 
 @media (min-width: 1280px) {
    .container {
+      padding: 3rem 2rem;
+
       grid-template-rows: 1fr 2fr;
    }
 
@@ -163,10 +165,14 @@ body {
          "card-1 card-2 card-4"
          "card-1 card-3 card-4"
          ". card-3 .";
-   }
 
-   .card {
-      align-self: center;
+      .card {
+         align-self: center;
+
+         p {
+            font-size: 1rem;
+         }
+      }
    }
 
    .card-1 {

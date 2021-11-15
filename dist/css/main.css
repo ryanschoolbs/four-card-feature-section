@@ -198,6 +198,7 @@ body {
 
 @media (min-width: 1280px) {
   .container {
+    padding: 3rem 2rem;
     grid-template-rows: 1fr 2fr;
   }
   .hero-title {
@@ -215,8 +216,11 @@ body {
     grid-auto-flow: row;
     grid-template-areas: ". card-2 ." "card-1 card-2 card-4" "card-1 card-3 card-4" ". card-3 .";
   }
-  .card {
+  .cards-wrap .card {
     align-self: center;
+  }
+  .cards-wrap .card p {
+    font-size: 1rem;
   }
   .card-1 {
     grid-area: card-1;
